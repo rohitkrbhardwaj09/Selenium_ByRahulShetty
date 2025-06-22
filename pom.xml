@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>RSA</groupId>
-  <artifactId>SELENIUM</artifactId>
+  <artifactId>Selenium_ByRahulShetty</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Rohar</name>
   <description>here, I will learn all about the selenium automation</description>
