@@ -66,7 +66,7 @@ public class SynchronizationUnderstanding {
 		
 		String placed = driver.findElement(By.xpath("//span[contains(text(),'Thank you, your order has been placed successfully')]")).getText();
 		
-		if (placed.contains("Thank you")) {
+		if (placed.contains("Thank you")) {z
 			Assert.assertTrue(true);
 		}else {
 			Assert.assertFalse(false);
