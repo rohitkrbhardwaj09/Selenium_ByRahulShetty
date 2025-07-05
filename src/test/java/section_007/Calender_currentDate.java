@@ -1,4 +1,4 @@
-package section_7;
+package section_007;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Dynamic_Dropdown {
+public class Calender_currentDate {
 
 	public static void main(String[] args) {
 		
@@ -29,6 +29,8 @@ public class Dynamic_Dropdown {
 			// departure city
 			// there is 2 occurrence of Chennai(MAA), so in order to click 2nd written this way
 			driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
+			
+			driver.findElement(By.cssSelector(".ui-state-default.ui-state-active")).click();
 			
 			
 		} catch (Exception e) {
