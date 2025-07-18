@@ -7,4 +7,11 @@
       <class name="section_016.Day2"/>
     </classes>
   </test>
+  <test name="loan">
+  	<classes>
+  		<class name="section_016.Day3"/>
+  		<class name="section_016.Day4"/>
+  	</classes>
+  </test>
+  
 </suite>
